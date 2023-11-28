@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'Nicks Repo',
+    description: 'My personal store of Kasm-supported Docker Containers.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://github.com/JustAQuickName/Custom-Kasm/',
+    contactUrl: 'https://github.com/JustAQuickName/Custom-Kasm',
   },
   reactStrictMode: true,
   swcMinify: true,
