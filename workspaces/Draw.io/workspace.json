@@ -1,0 +1,26 @@
+{
+  "name": "Draw.io",
+  "description": "draw.io is free online diagram software.",
+  "docker_img": "jgraph/drawio",
+  "start_script": "/start-kasm.sh",
+  "browser_audio": false,
+  "browser_view_only": false,
+  "is_default": false,
+  "is_public": true,
+  "docker_network_mode": "",
+  "docker_run_args": [
+    "-p 8080:8080",
+    "-p 8443:8443"
+  ],
+  "docker_environment": [],
+  "docker_cap_add": [
+    "SYS_ADMIN"
+  ],
+  "docker_devices": [],
+  "docker_binds": [
+    "/var/run/docker.sock:/var/run/docker.sock"
+  ],
+  "docker_dns": [],
+  "file_upload": false,
+  "file_download": true
+}
