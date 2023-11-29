@@ -2,7 +2,7 @@
   "friendly_name": "Tabby",
   "image_src": "blob:https://kasmregistry.linuxserver.io/c3781138-fbc0-4d02-a360-dddd47f6ba37",
   "description": null,
-  "name": "TabbyML/tabby:latest",
+  "name": "tabbyML/tabby:latest",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
